@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo pacman -Sy firefox \
+sudo pacman -S firefox \
 	polybar \
 	thunar \
 	gvfs \
@@ -14,7 +14,12 @@ sudo pacman -Sy firefox \
 	brightnessctl \
 	alsa-utils \
 	flameshot \
-	git
+	git \
+	bluez \
+	bluez-utils \
+	pulseaudio-bluetooth \
+	blueman \
+	qemu
 	
 	
 
@@ -31,3 +36,6 @@ cp -r -f ./polybar/ ~/.config/
 cp ./cosmos.jpg ~/.config/
 cp ./god.jpg ~/.config/
 
+
+sudo systemctl start bluetooth
+sudo systemctl enable bluetooth
