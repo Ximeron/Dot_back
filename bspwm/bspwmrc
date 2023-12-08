@@ -1,0 +1,20 @@
+#! /bin/sh
+
+pgrep -x sxhkd > /dev/null || sxhkd &
+
+
+xrandr -s 1920x1080
+feh --bg-fill ~/.config/cosmos.jpg
+wal -i ~/.config/cosmos.jpg
+setxkbmap -model pc105 -layout us,ru -option grp:alt_shift_toggle
+~/.config/polybar/launch.sh
+
+bspc monitor -d 1 2 3 4 5
+
+bspc config border_width         2
+bspc config window_gap          12
+
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+
