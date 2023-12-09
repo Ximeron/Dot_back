@@ -7,7 +7,7 @@ mkdir -p ~/.config \
 	
 
 cp -irv ./bspwm/ ~/.config/
-cp -irv ./sxhkd/ ~/.config/sxhkd
+cp -irv ./sxhkd/ ~/.config/
 cp -irv ./polybar/ ~/.config/
 cp -irv ./cosmos.jpg ~/.config/
 cp -irv ./god.jpg ~/.config/
