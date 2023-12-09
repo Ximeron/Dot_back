@@ -22,23 +22,10 @@ sudo pacman -S firefox \
 	qemu \
 	libreoffice-fresh \
 	libreoffice-fresh-ru \
-	torbrowser-launcher
+	torbrowser-launcher \
+	redshift
 	
 	
-
-
-mkdir -p ~/.config \
-	~/.config/bspwm \
-	~/.config/sxhkd \
-	~/.config/polybar
-	
-
-cp -r -f ./bspwm/ ~/.config/
-cp -r -f ./sxhkd/ ~/.config/
-cp -r -f ./polybar/ ~/.config/
-cp ./cosmos.jpg ~/.config/
-cp ./god.jpg ~/.config/
-
 
 sudo systemctl start bluetooth
 sudo systemctl enable bluetooth

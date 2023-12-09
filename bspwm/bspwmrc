@@ -7,6 +7,7 @@ xrandr -s 1920x1080
 feh --bg-fill ~/.config/cosmos.jpg
 wal -i ~/.config/cosmos.jpg
 setxkbmap -model pc105 -layout us,ru -option grp:alt_shift_toggle
+redshift -l 56.01:92.79 &
 ~/.config/polybar/launch.sh
 
 bspc monitor -d 1 2 3 4 5
