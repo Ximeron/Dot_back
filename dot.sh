@@ -14,4 +14,4 @@ cp -irv ./polybar/ ~/.config/
 cp -irv ./cosmos.jpg ~/.config/
 cp -irv ./god.jpg ~/.config/
 
-fc-cache -f -v
+fc-cache -fv
