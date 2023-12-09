@@ -19,7 +19,10 @@ sudo pacman -S firefox \
 	bluez-utils \
 	pulseaudio-bluetooth \
 	blueman \
-	qemu
+	qemu \
+	libreoffice-fresh \
+	libreoffice-fresh-ru \
+	torbrowser-launcher
 	
 	
 
