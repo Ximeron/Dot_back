@@ -17,12 +17,10 @@ sudo pacman -S firefox \
 	git \
 	bluez \
 	bluez-utils \
-	pulseaudio-bluetooth \
 	blueman \
 	libreoffice-fresh \
 	libreoffice-fresh-ru \
 	torbrowser-launcher \
-	redshift
 	
 	
 
